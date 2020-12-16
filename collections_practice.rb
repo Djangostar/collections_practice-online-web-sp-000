@@ -33,8 +33,7 @@ def find_a(arr)
 end
 
 def sum_array(arr)
-  arr.start_with?('a')
-  arr
+  arr.map {|word| word.star_with?('a')}
 end
 
 def add_s(array)
