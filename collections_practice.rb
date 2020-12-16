@@ -36,6 +36,6 @@ def sum_array(arr)
   arr.inject(0) {|sum, num| sum + num}
 end
 
-def add_s(array)  
+def add_s(array)
   arr.map {|word| arr[1] == word ? word : word + "s"}
 end
