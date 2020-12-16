@@ -33,10 +33,10 @@ def find_a(arr)
 end
 
 def sum_array(arr)
-  arr .start_with?('a')
+  arr.start_with?('a')
   arr
 end
 
 def add_s(array)
-  
+
 end
