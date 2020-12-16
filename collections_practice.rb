@@ -1,3 +1,4 @@
+require 'pry'
 def sort_array_asc(num)
   num.sort
 end
@@ -20,7 +21,7 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-
+  binding.pry
 end
 
 def find_a(arr)
