@@ -34,6 +34,7 @@ end
 
 def sum_array(arr)
   arr.select {|word| word.start_with?('a')}
+  arr
 end
 
 def add_s(array)
