@@ -29,12 +29,12 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
+  arr.map {|word| word.start_with?('a')}
 
 end
 
 def sum_array(arr)
-  arr.select {|word| word.start_with?('a')}
-  arr
+
 end
 
 def add_s(array)
